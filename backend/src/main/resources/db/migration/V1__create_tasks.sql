@@ -1,0 +1,9 @@
+CREATE TABLE tasks (
+    id BIGINT NOT NULL AUTO_INCREMENT,
+    title VARCHAR(120) NOT NULL,
+    description VARCHAR(2000),
+    completed BOOLEAN NOT NULL DEFAULT FALSE,
+    created_at DATETIME(6) NOT NULL,
+    updated_at DATETIME(6) NOT NULL,
+    PRIMARY KEY (id)
+) ENGINE=InnoDB;
