@@ -261,3 +261,5 @@ The repository does not include a fabricated screenshot; use an image captured f
 ## Portability notes
 
 The same Compose file and `.env` settings can be used on another computer with Docker Compose v2. The API connects to the database through the Compose service name, the frontend uses Nginx as a reverse proxy, and the named MySQL volume stores application data across container replacements. Only the initial image build needs to download its base images and package dependencies.
+<img width="1655" height="658" alt="image" src="https://github.com/user-attachments/assets/6e8013ae-9eaf-4980-8a37-c778b8b3cc47" />
+
